@@ -67,12 +67,12 @@ form button {
   margin-bottom: 10px;
   padding: 4px 6px;
   text-decoration:none;
-}
-
-form button:hover {
+  cursor: pointer;
+  &:hover {
   border-color: rgba(82, 168, 236, 0.8);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
   outline: 0 none;
+}
 }
 
 li {
@@ -94,11 +94,11 @@ li button {
   font-size: 14px;
   padding: 4px 6px;
   text-decoration:none;
-}
-
-li button:hover {
+  cursor: pointer;
+&:hover {
   border-color: rgba(82, 168, 236, 0.8);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
   outline: 0 none;
+}
 }
 `;
